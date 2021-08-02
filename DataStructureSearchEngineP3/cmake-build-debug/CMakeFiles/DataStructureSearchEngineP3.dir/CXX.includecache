@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/funandgames/Desktop/CLionProjects/DataStructureSearchEngineP3/BST.h
+
+/Users/funandgames/Desktop/CLionProjects/DataStructureSearchEngineP3/HashMap.h
+vector
+-
+
+/Users/funandgames/Desktop/CLionProjects/DataStructureSearchEngineP3/main.cpp
+iostream
+-
+fstream
+-
+set
+-
+chrono
+-
+BST.h
+/Users/funandgames/Desktop/CLionProjects/DataStructureSearchEngineP3/BST.h
+HashMap.h
+/Users/funandgames/Desktop/CLionProjects/DataStructureSearchEngineP3/HashMap.h
+
