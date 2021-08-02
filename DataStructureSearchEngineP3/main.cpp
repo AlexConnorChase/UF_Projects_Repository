@@ -79,7 +79,7 @@ int main() {//Overall Timing O((n^2 * log n) + (n^2 * log n)) => O(n^2 * log n)
     int cap =  200000; //Set  outside of capacity bounds
     int ran = 100; //number of random access points
 
-    //select number of dataa points
+    //select number of data points
     while(cap > 190000){
         cout << "Please input a number between 0 and 190,000 for the number of data points." << endl;
         cin >> input;
@@ -232,7 +232,7 @@ int main() {//Overall Timing O((n^2 * log n) + (n^2 * log n)) => O(n^2 * log n)
         cout << "The implemented BST entered its values faster at " << Bst.entry << " seconds." << endl;
     }
     else{//HashMap is faster
-        cout << "The implemented Hash Map entered its values fatser at " << Hm.entry << " seconds." << endl;
+        cout << "The implemented Hash Map entered its values faster at " << Hm.entry << " seconds." << endl;
     }
 
     //Display access ranking
@@ -243,7 +243,7 @@ int main() {//Overall Timing O((n^2 * log n) + (n^2 * log n)) => O(n^2 * log n)
         cout << "The implemented BST accessed its values faster at " << Bst.returnT() << " seconds on average." << endl;
     }
     else{//HashMap is faster
-        cout << "The implemented Hash Map accessed its values fatser at " << Hm.returnT() << " seconds on average." << endl;
+        cout << "The implemented Hash Map accessed its values faster at " << Hm.returnT() << " seconds on average." << endl;
     }
     return 0;
 }

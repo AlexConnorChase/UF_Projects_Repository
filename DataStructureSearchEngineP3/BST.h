@@ -103,4 +103,5 @@ public:
 #endif //DATASTRUCTURESEARCHENGINEP3_BST_H
 /*Links for websites used as reference for BST
  *Template Handling http://users.cis.fiu.edu/~weiss/Deltoid/vcstl/templates
+ *Typename: https://en.cppreference.com/w/cpp/language/type_alias
  */

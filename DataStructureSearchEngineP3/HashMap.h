@@ -57,5 +57,5 @@ public:
 
 /* Links to websites and example code for Hash Map
  * Template use: http://users.cis.fiu.edu/~weiss/Deltoid/vcstl/templates
- *
+ *Typename: https://en.cppreference.com/w/cpp/language/type_alias
 */
