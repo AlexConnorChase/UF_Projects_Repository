@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/funandgames/Desktop/CLionProjects/CacheProjectAC/DM.h
+map
+-
+math.h
+-
+
+/Users/funandgames/Desktop/CLionProjects/CacheProjectAC/FA.h
+list
+-
+math.h
+-
+
+/Users/funandgames/Desktop/CLionProjects/CacheProjectAC/SA.h
+vector
+-
+math.h
+-
+
+/Users/funandgames/Desktop/CLionProjects/CacheProjectAC/main.cpp
+iostream
+-
+fstream
+-
+chrono
+-
+FA.h
+/Users/funandgames/Desktop/CLionProjects/CacheProjectAC/FA.h
+SA.h
+/Users/funandgames/Desktop/CLionProjects/CacheProjectAC/SA.h
+DM.h
+/Users/funandgames/Desktop/CLionProjects/CacheProjectAC/DM.h
+
